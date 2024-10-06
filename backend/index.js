@@ -1,9 +1,12 @@
 import express, { request, response } from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import cors from 'cors'; // Import the CORS package
+
 
 const app = express();
 dotenv.config();
+app.use(cors()); // Use the CORS middleware
 
 const PORT = process.env.PORT || 7000;
 const MONGOURL = process.env.MONGO_URL;
