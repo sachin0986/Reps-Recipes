@@ -1,0 +1,198 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    letter-spacing: 0;
+  }
+  .imageContainer {
+    color: #036635;
+    paddign: 10px;
+    margin: 10px 10px 0px 60px;
+    height: 80px;
+    
+  }
+  .body{
+    background: rgb(255, 255, 255);
+    font-family: Gilroy, Arial, sans-serif !important;
+  }
+  .nav_items > ul {
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin: 10px 70px 0px 10px; 
+  }
+  .nav_items > ul > li {
+    font-size: 20px;
+    paddign: 10px;
+    margin: 10px;
+  }
+
+  .res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 50px;
+  }
+  
+  
+  .search {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    positon: absolute;
+    align-items: center;
+  }
+  .res-card {
+    margin: 20px 16px;
+    gap: 32px;
+    padding: 10 0 0 0;
+    width: 227px;
+  }
+  .res-card:hover {
+    cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .res-card:hover, .res-card:focus, .res-card:active {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+  .res-card > h3 {
+    margin: 0px;
+  }
+  .res-card > p {
+    margin: 0px
+  }
+  .cart_image {
+    width: 226px;
+    height: 151px;
+    border-radius: 15px;
+  }
+  .Cart {
+    padding-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shot_head {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .searchButton,
+  .filter-btn,
+  .All_rest {
+    margin: 30px;
+    border: none;
+    background-color: white;
+    text-color: #f0f0f0;
+  }
+  .LuSearch {
+    background-color: white;
+    border: none;
+  }
+  
+  .shimmer_Container {
+    padding-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shimmer-cards {
+    margin: 5px;
+    padding: 10 0 0 10;
+    width: 190px;
+    height: 300px;
+    background-color: #f0f0f0;
+  }
+  
+  .login {
+    paddign: 0 20px;
+    cursor: pointer;
+  }
+  
+  .menuImg {
+    width: 200px;
+    height: 120px;
+  }
+  
+  .user-card {
+    padding: 10px;
+    border: solid 1px black;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    height: 100px; /* Increased height */
+    width: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row;
+      height: 120px; /* Adjust height for larger screens */
+    }
+  }
+  
+  .footer_Left {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  
+  @media (min-width: 768px) {
+    .footer_Left {
+      gap: 8px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .Logo {
+    color: white;
+    transition: opacity 0.3s;
+  }
+  
+  .Logo:hover {
+    opacity: 0.8;
+  }
+  
+  .textContainer {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .textContainer {
+      text-align: left;
+    }
+  }
+  
+  .text {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    .text {
+      font-size: 18px;
+    }
+  }
+  
+  /* Additional styling to ensure the page content does not overlap with the footer */
+  body {
+    margin: 0
+  }
