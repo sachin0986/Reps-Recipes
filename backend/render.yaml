@@ -1,0 +1,6 @@
+PORT = 8000
+MONGO_URL = "mongodb://localhost:27017/RepsAndRecipes"
+
+const PORT = process.env.PORT || 7000;
+const MONGOURL = process.env.MONGO_URL;
+
