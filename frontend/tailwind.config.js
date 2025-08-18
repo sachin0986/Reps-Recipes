@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily: {
         "font-poppins" : ["Poppins", "sans-serif"]
-      }
+      },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+      },
     },
   },
   plugins: [],

@@ -5,10 +5,16 @@ import Body from "./Components/Body";
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import About from "./Pages/About";
 import Corporate from "./Pages/Corporate";
-import Help from "./Pages/Help";
 import Search from "./Pages/Search";
 import Offers from "./Pages/Offers";
 import Error from "./Pages/Error";
+import ProductDetails from "./Pages/ProductDetails";
+import AIpage from "./Components/AI";
+import Contact from "./Pages/Contact";
+import SignInPage from "./Pages/SignIn";
+import CartPage from "./Pages/Cart";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AppLayout = () => {
     return(
@@ -18,6 +24,7 @@ const AppLayout = () => {
             <Outlet />
            </div>
             <Footer />
+            <ToastContainer />
         </div>
     );
 };
@@ -36,17 +43,33 @@ const AppLayout = () => {
               element: <Corporate />
           },
           {
+            path: "/aipage",
+            element: <AIpage />
+        },
+        {
+            path: "/signin",
+            element: <SignInPage />
+        },
+          {
             path: "/offers",
             element: <Offers />
           },
           {
-              path: "/help",
-              element: <Help />
-          },
-          {
             path: "/search",
             element: <Search />
-        }
+        },
+        {
+            path: "/contact",
+            element: <Contact />
+        },
+        {
+            path: "/cart",
+            element: <CartPage />
+        },
+        {
+          path: "/recipes/:dishId",
+          element: <ProductDetails />
+      }
             ],
             errorElement: <Error />
         },

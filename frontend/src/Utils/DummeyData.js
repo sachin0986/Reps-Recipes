@@ -3,7 +3,68 @@ export const AllData =
       "_id": "66fbfc197fd06c4facdd48af",
       "menu": {
         "data": {
-          "scrollBar": {},
+          "scrollBar": [
+            {
+              "id": 1,
+              "name": "Infused Water",
+              "starsRatings": "4.5",
+              "price": "50",
+              "imageURL": "https://images.pexels.com/photos/9009821/pexels-photo-9009821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+              "protein": "0g",
+              "calories": "5",
+              "fats": "0g",
+              "carbs": "1g",
+              "category": "Pre-Workout"
+            },
+            {
+              "id": 2,
+              "name": "Coconut Water",
+              "starsRatings": "4.8",
+              "price": "70",
+              "imageURL": "https://images.pexels.com/photos/19035106/pexels-photo-19035106/free-photo-of-cocktail-in-coconut-shell.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+              "protein": "1g",
+              "calories": "60",
+              "fats": "0.5g",
+              "carbs": "15g",
+              "category": "Post-Workout"
+            },
+            {
+              "id": 3,
+              "name": "Aloe Vera Water",
+              "starsRatings": "3.8",
+              "price": "40",
+              "imageURL": "https://media.istockphoto.com/id/876902650/photo/lemonade-from-lime-and-mint.jpg?s=612x612&w=0&k=20&c=9Pd1U7FGY7taqoBR-YZJP9YPiBFlQ-4s8ME7I9p8K5U=",
+              "protein": "0g",
+              "calories": "25",
+              "fats": "0g",
+              "carbs": "6g",
+              "category": "Pre-Workout"
+            },
+            {
+              "id": 4,
+              "name": "Chia Seed Water",
+              "starsRatings": "3.5",
+              "price": "40",
+              "imageURL": "https://media.istockphoto.com/id/1300848289/photo/water-with-chia-seeds-and-lemon-on-a-black-background-a-useful-drink-for-weight-loss.jpg?s=612x612&w=0&k=20&c=OdhwZaf_sOOPfCQJxdh01mXodTSQ7REUC876v_hc0Mw=",
+              "protein": "3g",
+              "calories": "100",
+              "fats": "7g",
+              "carbs": "8g",
+              "category": "High in Protein"
+            },
+            {
+              "id": 5,
+              "name": "Herbal Infused Water",
+              "starsRatings": "4.6",
+              "price": "60",
+              "imageURL": "https://images.pexels.com/photos/11995609/pexels-photo-11995609.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "protein": "0g",
+              "calories": "5",
+              "fats": "0g",
+              "carbs": "1g",
+              "category": "Pre-Workout"
+            },
+          ],
           "topServe": {},
           "cards": {
             "healthySmoothies": [
@@ -1907,10 +1968,927 @@ export const AllData =
                 "starsRatings": "4.9"
               }
             ],
-            "allMix": [
               
-            ]
           }
         }
       }
+    }
+
+
+
+
+    export const Allmix = {
+      "data": [
+          {
+            "id": 5,
+            "name": "Grilled Chicken Breast",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Chicken Breast",
+              "Spices",
+              "Lemon",
+              "Olive Oil"
+            ],
+            "250g": {
+              "protein": "20g",
+              "calories": "150",
+              "energy": "628.5kJ",
+              "carbs": "0g",
+              "fats": "3.5g"
+            },
+            "500g": {
+              "protein": "40g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "0g",
+              "fats": "7g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/617864102/photo/grilled-chicken-breast-with-green-salad-and-french-fries.jpg?s=612x612&w=0&k=20&c=IRb1GtsjKLuaEqyRzr4VcHj4a2M6gZgfWP5x2OvW3Es=",
+            "priceforHalf": "120",
+            "priceforFull": "240",
+            "starsRatings": "4.9"
+          },
+          {
+            "id": 2,
+            "name": "Palak Paneer",
+            "category": "Veg",
+            "ingredients": [
+              "Paneer",
+              "Spinach",
+              "Onions",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "150",
+              "energy": "627.5kJ",
+              "carbs": "10g",
+              "fats": "7.5g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "20g",
+              "fats": "15g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1395566674/photo/palak-paneer-and-tandoori-roti.jpg?s=612x612&w=0&k=20&c=SPtyPlCrLxecI3J1dhI5HRWg5iESUHwJxJPOBX1yS8M=",
+            "priceforHalf": "130",
+            "priceforFull": "250",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 13,
+            "name": "Greek Yogurt Parfait",
+            "category": "Post-Workout",
+            "ingredients": [
+              "Greek Yogurt",
+              "Fruits",
+              "Nuts",
+              "Honey"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "145",
+              "energy": "606kJ",
+              "carbs": "20g",
+              "fats": "4g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "290",
+              "energy": "1213kJ",
+              "carbs": "40g",
+              "fats": "8g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1361086783/photo/homemade-granola-muesli-with-yogurt.jpg?s=612x612&w=0&k=20&c=8nBW0FfmwJbtGUyMl0BtFgzrJ48qvHLwgCSSWhlizHw=",
+            "priceforHalf": "120",
+            "priceforFull": "240",
+            "starsRatings": "5.0"
+          },
+          {
+            "id": 4,
+            "name": "Rajma (Kidney Bean Curry)",
+            "category": "Veg",
+            "ingredients": [
+              "Kidney Beans",
+              "Tomatoes",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "10g",
+              "calories": "140",
+              "energy": "586.5kJ",
+              "carbs": "25g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "20g",
+              "calories": "280",
+              "energy": "1173kJ",
+              "carbs": "50g",
+              "fats": "4g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1779951169/photo/rajma-or-red-kidney-beans-with-naan-indian-dish.jpg?s=612x612&w=0&k=20&c=-yIU6UE4G8YkzenGk6pqM1QAiO4ZFilj1P-v00ZlVv8=",
+            "priceforHalf": "70",
+            "priceforFull": "140",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 1,
+            "name": "Chickpea Curry (Chole)",
+            "category": "Veg",
+            "ingredients": [
+              "Chickpeas",
+              "Tomatoes",
+              "Onions",
+              "Spices",
+              "Coriander"
+            ],
+            "250g": {
+              "protein": "10g",
+              "calories": "125",
+              "energy": "522.5kJ",
+              "carbs": "22.5g",
+              "fats": "2.5g"
+            },
+            "500g": {
+              "protein": "20g",
+              "calories": "250",
+              "energy": "1045kJ",
+              "carbs": "45g",
+              "fats": "5g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1395195284/photo/spicy-chickpea-and-spinach-curry-moroccan-chickpea-stew.jpg?s=612x612&w=0&k=20&c=uAY5dc5n4xzj35fnxKnswSe-pu-o-TNLrLoalnV4hF0=",
+            "priceforHalf": "70",
+            "priceforFull": "140",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 2,
+            "name": "Palak Paneer",
+            "category": "Veg",
+            "ingredients": [
+              "Paneer",
+              "Spinach",
+              "Onions",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "150",
+              "energy": "627.5kJ",
+              "carbs": "10g",
+              "fats": "7.5g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "20g",
+              "fats": "15g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1395566674/photo/palak-paneer-and-tandoori-roti.jpg?s=612x612&w=0&k=20&c=SPtyPlCrLxecI3J1dhI5HRWg5iESUHwJxJPOBX1yS8M=",
+            "priceforHalf": "130",
+            "priceforFull": "250",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 3,
+            "name": "Tofu Stir Fry",
+            "category": "Veg",
+            "ingredients": [
+              "Tofu",
+              "Bell Peppers",
+              "Broccoli",
+              "Carrots",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "12.5g",
+              "calories": "110",
+              "energy": "460kJ",
+              "carbs": "10g",
+              "fats": "5g"
+            },
+            "500g": {
+              "protein": "25g",
+              "calories": "220",
+              "energy": "920kJ",
+              "carbs": "20g",
+              "fats": "10g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/523445425/photo/homemade-tofu-stir-fry.jpg?s=612x612&w=0&k=20&c=wt9ie_VlwAIHl5Cp7oeggDcBI4HOn7yfqGSWVFTDNss=",
+            "priceforHalf": "80",
+            "priceforFull": "150",
+            "starsRatings": "4.5"
+          },
+          {
+            "id": 4,
+            "name": "Rajma (Kidney Bean Curry)",
+            "category": "Veg",
+            "ingredients": [
+              "Kidney Beans",
+              "Tomatoes",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "10g",
+              "calories": "140",
+              "energy": "586.5kJ",
+              "carbs": "25g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "20g",
+              "calories": "280",
+              "energy": "1173kJ",
+              "carbs": "50g",
+              "fats": "4g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1779951169/photo/rajma-or-red-kidney-beans-with-naan-indian-dish.jpg?s=612x612&w=0&k=20&c=-yIU6UE4G8YkzenGk6pqM1QAiO4ZFilj1P-v00ZlVv8=",
+            "priceforHalf": "70",
+            "priceforFull": "140",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 5,
+            "name": "Grilled Chicken Breast",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Chicken Breast",
+              "Spices",
+              "Lemon",
+              "Olive Oil"
+            ],
+            "250g": {
+              "protein": "20g",
+              "calories": "150",
+              "energy": "628.5kJ",
+              "carbs": "0g",
+              "fats": "3.5g"
+            },
+            "500g": {
+              "protein": "40g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "0g",
+              "fats": "7g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/617864102/photo/grilled-chicken-breast-with-green-salad-and-french-fries.jpg?s=612x612&w=0&k=20&c=IRb1GtsjKLuaEqyRzr4VcHj4a2M6gZgfWP5x2OvW3Es=",
+            "priceforHalf": "120",
+            "priceforFull": "240",
+            "starsRatings": "4.9"
+          },
+          {
+            "id": 6,
+            "name": "Fish Curry",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Fish",
+              "Coconut Milk",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "125",
+              "energy": "522.5kJ",
+              "carbs": "5g",
+              "fats": "6g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "250",
+              "energy": "1045kJ",
+              "carbs": "10g",
+              "fats": "12g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1314239563/photo/chicken-tikka-masala-traditional-dish-of-indian-cuisine.jpg?s=612x612&w=0&k=20&c=ZTND96gVj4OclZFm9tBdPen7fBG_wYRVZIU_3uePCyc=",
+            "priceforHalf": "90",
+            "priceforFull": "170",
+            "starsRatings": "4.3"
+          },
+          {
+            "id": 7,
+            "name": "Besan Chilla",
+            "category": "Pre-Workout",
+            "ingredients": [
+              "Besan (Chickpea Flour)",
+              "Onions",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "22g",
+              "calories": "230",
+              "energy": "962kJ",
+              "carbs": "35g",
+              "fats": "6g"
+            },
+            "500g": {
+              "protein": "44g",
+              "calories": "460",
+              "energy": "1924kJ",
+              "carbs": "70g",
+              "fats": "12g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1158839162/photo/chilla-or-besan-cheela-or-veg-omelette.jpg?b=1&s=612x612&w=0&k=20&c=45rgLasAHaT4XQMG7OUfp6Eo9-RpIJ29T98JvhE1Erw=",
+            "priceforHalf": "70",
+            "priceforFull": "140",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 1,
+            "name": "Infused Water",
+            "starsRatings": "4.5",
+            "price": "50",
+            "imageURL": "https://images.pexels.com/photos/9009821/pexels-photo-9009821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "protein": "0g",
+            "calories": "5",
+            "fats": "0g",
+            "carbs": "1g",
+            "category": "Pre-Workout"
+          },
+          {
+            "id": 2,
+            "name": "Coconut Water",
+            "starsRatings": "4.8",
+            "price": "70",
+            "imageURL": "https://images.pexels.com/photos/19035106/pexels-photo-19035106/free-photo-of-cocktail-in-coconut-shell.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "protein": "1g",
+            "calories": "60",
+            "fats": "0.5g",
+            "carbs": "15g",
+            "category": "Post-Workout"
+          },
+          {
+            "id": 3,
+            "name": "Aloe Vera Water",
+            "starsRatings": "3.8",
+            "price": "40",
+            "imageURL": "https://media.istockphoto.com/id/876902650/photo/lemonade-from-lime-and-mint.jpg?s=612x612&w=0&k=20&c=9Pd1U7FGY7taqoBR-YZJP9YPiBFlQ-4s8ME7I9p8K5U=",
+            "protein": "0g",
+            "calories": "25",
+            "fats": "0g",
+            "carbs": "6g",
+            "category": "Pre-Workout"
+          },
+          {
+            "id": 4,
+            "name": "Chia Seed Water",
+            "starsRatings": "3.5",
+            "price": "40",
+            "imageURL": "https://media.istockphoto.com/id/1300848289/photo/water-with-chia-seeds-and-lemon-on-a-black-background-a-useful-drink-for-weight-loss.jpg?s=612x612&w=0&k=20&c=OdhwZaf_sOOPfCQJxdh01mXodTSQ7REUC876v_hc0Mw=",
+            "protein": "3g",
+            "calories": "100",
+            "fats": "7g",
+            "carbs": "8g",
+            "category": "High in Protein"
+          },
+          {
+            "id": 5,
+            "name": "Herbal Infused Water",
+            "starsRatings": "4.6",
+            "price": "60",
+            "imageURL": "https://images.pexels.com/photos/11995609/pexels-photo-11995609.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "protein": "0g",
+            "calories": "5",
+            "fats": "0g",
+            "carbs": "1g",
+            "category": "Pre-Workout"
+          },
+          {
+            "id": 6,
+            "name": "Green Smoothie",
+            "starsRatings": "4.1",
+            "price": "60",
+            "imageURL": "https://images.pexels.com/photos/5337721/pexels-photo-5337721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "protein": "5g",
+            "calories": "180",
+            "fats": "2g",
+            "carbs": "38g",
+            "category": "Post-Workout"
+          },
+          {
+            "id": 7,
+            "name": "Protein Smoothie",
+            "starsRatings": "4.8",
+            "price": "80",
+            "imageURL": "https://images.pexels.com/photos/11161212/pexels-photo-11161212.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "protein": "15g",
+            "calories": "250",
+            "fats": "5g",
+            "carbs": "30g",
+            "category": "High in Protein"
+          },
+          {
+            "id": 8,
+            "name": "Berry Smoothie",
+            "starsRatings": "4.5",
+            "price": "80",
+            "imageURL": "https://images.pexels.com/photos/27089116/pexels-photo-27089116/free-photo-of-close-up-of-a-glass-with-a-strawberry-smoothie.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "protein": "8g",
+            "calories": "160",
+            "fats": "2g",
+            "carbs": "28g",
+            "category": "Post-Workout"
+          },
+          {
+            "id": 9,
+            "name": "Tropical Smoothie",
+            "starsRatings": "4",
+            "price": "80",
+            "imageURL": "https://images.pexels.com/photos/5668538/pexels-photo-5668538.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "protein": "3g",
+            "calories": "190",
+            "fats": "4g",
+            "carbs": "35g",
+            "category": "Post-Workout"
+          },
+          {
+            "id": 10,
+            "name": "Peanut Butter & Banana Smoothie",
+            "starsRatings": "4.8",
+            "price": "80",
+            "imageURL": "https://media.istockphoto.com/id/1023939600/photo/banana-protein-smoothie-or-milkshake-in-drinking-glass.jpg?s=612x612&w=0&k=20&c=ZxE9quu0acZbkfgwKOPiLwMcANarhTkIeD0iHyAFIUQ=",
+            "protein": "10g",
+            "calories": "300",
+            "fats": "15g",
+            "carbs": "35g",
+            "category": "High in Protein"
+          },
+          {
+            "id": 20,
+            "name": "Chicken Kebab",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Chicken",
+              "Yogurt",
+              "Spices",
+              "Lemon"
+            ],
+            "250g": {
+              "protein": "20g",
+              "calories": "175",
+              "energy": "731kJ",
+              "carbs": "2.5g",
+              "fats": "5g"
+            },
+            "500g": {
+              "protein": "40g",
+              "calories": "350",
+              "energy": "1464kJ",
+              "carbs": "5g",
+              "fats": "10g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1348716579/photo/greek-chicken-souvlaki-with-tzatziki.jpg?s=612x612&w=0&k=20&c=2NelD-HPHKiDIlcp0xBmpbKNgGer0rX-9cT99_KlNQk=",
+            "priceforHalf": "180",
+            "priceforFull": "340",
+            "starsRatings": "4.9"
+          },
+          {
+            "id": 11,
+            "name": "Masoor Dal (Red Lentil Curry)",
+            "category": "Veg",
+            "ingredients": [
+              "Red Lentils",
+              "Tomatoes",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "11g",
+              "calories": "120",
+              "energy": "502.5kJ",
+              "carbs": "20g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "22g",
+              "calories": "240",
+              "energy": "1005kJ",
+              "carbs": "40g",
+              "fats": "4g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/513763226/photo/thick-indian-red-lentil-soup-with-indian-flat-bread.jpg?s=612x612&w=0&k=20&c=CZTJ-5iKVNc-fkW9Imb8GJwM_MRMgB55xvV414AkvA8=",
+            "priceforHalf": "60",
+            "priceforFull": "120",
+            "starsRatings": "4.8"
+          },
+          {
+            "id": 1,
+            "name": "Paneer Bhurji",
+            "category": "Post-Workout",
+            "ingredients": [
+              "Paneer",
+              "Onions",
+              "Tomatoes",
+              "Green Chilies",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "45g",
+              "calories": "420",
+              "energy": "1760kJ",
+              "carbs": "15g",
+              "fats": "22g"
+            },
+            "500g": {
+              "protein": "90g",
+              "calories": "840",
+              "energy": "3520kJ",
+              "carbs": "30g",
+              "fats": "44g"
+            },
+            "imageURL": "https://images.pexels.com/photos/12737816/pexels-photo-12737816.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "priceforHalf": "120",
+            "priceforFull": "210",
+            "starsRatings": "4.5"
+          },
+          {
+            "id": 6,
+            "name": "Fish Curry",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Fish",
+              "Coconut Milk",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "125",
+              "energy": "522.5kJ",
+              "carbs": "5g",
+              "fats": "6g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "250",
+              "energy": "1045kJ",
+              "carbs": "10g",
+              "fats": "12g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1314239563/photo/chicken-tikka-masala-traditional-dish-of-indian-cuisine.jpg?s=612x612&w=0&k=20&c=ZTND96gVj4OclZFm9tBdPen7fBG_wYRVZIU_3uePCyc=",
+            "priceforHalf": "90",
+            "priceforFull": "170",
+            "starsRatings": "4.3"
+          },
+          {
+            "id": 3,
+            "name": "Sprouted Moong Salad",
+            "category": "Post-Workout",
+            "ingredients": [
+              "Sprouted Moong Beans",
+              "Cucumber",
+              "Tomatoes",
+              "Lemon",
+              "Coriander"
+            ],
+            "250g": {
+              "protein": "24g",
+              "calories": "180",
+              "energy": "753kJ",
+              "carbs": "32g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "48g",
+              "calories": "360",
+              "energy": "1506kJ",
+              "carbs": "64g",
+              "fats": "4g"
+            },
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHOxis4XBGtmVvCBYD_WwFqMWYgYXo7KFJ5g&s",
+            "priceforHalf": "50",
+            "priceforFull": "100",
+            "starsRatings": "4.2"
+          },
+          {
+            "id": 8,
+            "name": "Egg Curry",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Eggs",
+              "Tomatoes",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "125",
+              "energy": "522.5kJ",
+              "carbs": "10g",
+              "fats": "5g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "250",
+              "energy": "1045kJ",
+              "carbs": "20g",
+              "fats": "10g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/534633288/photo/indian-famous-egg-curry-or-anda-curry.jpg?s=612x612&w=0&k=20&c=9DMJ5WnHGi3b5rYFu7FSlJtgY6CgZ_SCMy64nT6l7y8=",
+            "priceforHalf": "80",
+            "priceforFull": "160",
+            "starsRatings": "4.8"
+          },
+          {
+            "id": 10,
+            "name": "Stuffed Bell Peppers with Quinoa",
+            "category": "Veg",
+            "ingredients": [
+              "Bell Peppers",
+              "Quinoa",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "9g",
+              "calories": "110",
+              "energy": "460kJ",
+              "carbs": "17.5g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "18g",
+              "calories": "220",
+              "energy": "920kJ",
+              "carbs": "35g",
+              "fats": "4g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1091383052/photo/stuffed-peppers.jpg?s=612x612&w=0&k=20&c=d3AIaUO7c1YpVSaQz6lx3qeeJzhSdM7uXTFhRi_pRA8=",
+            "priceforHalf": "70",
+            "priceforFull": "130",
+            "starsRatings": "3.9"
+          },
+          {
+            "id": 14,
+            "name": "Grilled Tandoori Paneer",
+            "category": "Veg",
+            "ingredients": [
+              "Paneer",
+              "Yogurt",
+              "Tandoori Masala",
+              "Lemon"
+            ],
+            "250g": {
+              "protein": "15g",
+              "calories": "175",
+              "energy": "731kJ",
+              "carbs": "5g",
+              "fats": "7.5g"
+            },
+            "500g": {
+              "protein": "30g",
+              "calories": "350",
+              "energy": "1464kJ",
+              "carbs": "10g",
+              "fats": "15g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1202675600/photo/chicken-tikka.jpg?s=612x612&w=0&k=20&c=qaMlelonPkT5SGeefeLMumnixYvEZWdTKxjyJgfnVFY=",
+            "priceforHalf": "120",
+            "priceforFull": "240",
+            "starsRatings": "4.8"
+          },
+          {
+            "id": 9,
+            "name": "Lentil Soup",
+            "category": "Veg",
+            "ingredients": [
+              "Lentils",
+              "Carrots",
+              "Celery",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "10g",
+              "calories": "100",
+              "energy": "418kJ",
+              "carbs": "15g",
+              "fats": "1.5g"
+            },
+            "500g": {
+              "protein": "20g",
+              "calories": "200",
+              "energy": "836kJ",
+              "carbs": "30g",
+              "fats": "3g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1178768522/photo/traditional-thick-sweet-potato-soup-with-lentils-close-up-in-a-bowl-on-the-table-horizontal.jpg?s=612x612&w=0&k=20&c=FLP8Pds0meqcIprKWV_XcX0QTL144Df_c_U4o3TNvwI=",
+            "priceforHalf": "50",
+            "priceforFull": "90",
+            "starsRatings": "4.6"
+          },
+          {
+            "id": 12,
+            "name": "Sprouted Moong Dal Salad",
+            "category": "Veg",
+            "ingredients": [
+              "Sprouted Moong Dal",
+              "Tomatoes",
+              "Cucumber",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "9g",
+              "calories": "95",
+              "energy": "397.5kJ",
+              "carbs": "15g",
+              "fats": "1g"
+            },
+            "500g": {
+              "protein": "18g",
+              "calories": "190",
+              "energy": "796kJ",
+              "carbs": "30g",
+              "fats": "2g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/839772144/photo/boiled-pearl-barley.jpg?s=612x612&w=0&k=20&c=kprmCrdOzumRyw15LGKPYX203FtwyR2pMRBd5ym49AQ=",
+            "priceforHalf": "50",
+            "priceforFull": "90",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 15,
+            "name": "Lentil and Spinach Soup",
+            "category": "Veg",
+            "ingredients": [
+              "Lentils",
+              "Spinach",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "11g",
+              "calories": "105",
+              "energy": "439.5kJ",
+              "carbs": "17.5g",
+              "fats": "1.5g"
+            },
+            "500g": {
+              "protein": "22g",
+              "calories": "210",
+              "energy": "879kJ",
+              "carbs": "35g",
+              "fats": "3g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1176269066/photo/gluten-free-soup.jpg?s=612x612&w=0&k=20&c=rTMgvPOA28uRl2hMF8i8N5_xZmpQ4kjPsdYCPnYSvjY=",
+            "priceforHalf": "60",
+            "priceforFull": "100",
+            "starsRatings": "3.8"
+          },
+          {
+            "id": 16,
+            "name": "Chicken Saag",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Chicken",
+              "Spinach",
+              "Onions",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "17.5g",
+              "calories": "160",
+              "energy": "577.5kJ",
+              "carbs": "7.5g",
+              "fats": "6g"
+            },
+            "500g": {
+              "protein": "35g",
+              "calories": "320",
+              "energy": "1345kJ",
+              "carbs": "15g",
+              "fats": "12g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1279090272/photo/shot-of-achari-chicken-along-with-tandoori-roti-with-it-on-a-serving-plate-with-some-chilies.jpg?s=612x612&w=0&k=20&c=53A-q6RGuSZCKUT7Lp8107p6JEDi3y9x6EeVPcEf7Cw=",
+            "priceforHalf": "140",
+            "priceforFull": "270",
+            "starsRatings": "4.7"
+          },
+          {
+            "id": 17,
+            "name": "Baked Fish with Herbs",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Fish",
+              "Herbs",
+              "Lemon",
+              "Olive Oil"
+            ],
+            "250g": {
+              "protein": "17.5g",
+              "calories": "140",
+              "energy": "586.5kJ",
+              "carbs": "2.5g",
+              "fats": "3g"
+            },
+            "500g": {
+              "protein": "35g",
+              "calories": "280",
+              "energy": "1173kJ",
+              "carbs": "5g",
+              "fats": "6g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1305251323/photo/fried-salmon-fillet-steaks-on-a-wooden-board-with-thyme-dark-wooden-background-top-view.jpg?s=612x612&w=0&k=20&c=ctBwoVERBWzw-NCtATYT1OUk9uRKzejPXpOLZjeox94=",
+            "priceforHalf": "80",
+            "priceforFull": "160",
+            "starsRatings": "5.0"
+          },
+          {
+            "id": 18,
+            "name": "Turkey Meatballs with Tomato Sauce",
+            "category": "Non-Veg",
+            "ingredients": [
+              "Turkey Mince",
+              "Tomatoes",
+              "Onions",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "20g",
+              "calories": "150",
+              "energy": "628.5kJ",
+              "carbs": "5g",
+              "fats": "4g"
+            },
+            "500g": {
+              "protein": "40g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "10g",
+              "fats": "8g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1296003358/photo/linguine-with-turkey-meatballs-in-a-marinara-sauce.jpg?s=612x612&w=0&k=20&c=L_YtXcY8CkWD7GedHgQwzvrw9wO0u7jt5bFBB5N5FUE=",
+            "priceforHalf": "70",
+            "priceforFull": "140",
+            "starsRatings": "3.6"
+          },
+          {
+            "id": 19,
+            "name": "Idli with Sambar (Dal based)",
+            "category": "Pre-Workout",
+            "ingredients": [
+              "Rice",
+              "Urad Dal",
+              "Sambar",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "10g",
+              "calories": "150",
+              "energy": "627kJ",
+              "carbs": "25g",
+              "fats": "2g"
+            },
+            "500g": {
+              "protein": "20g",
+              "calories": "300",
+              "energy": "1255kJ",
+              "carbs": "50g",
+              "fats": "4g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1024549286/photo/idly-sambar-or-idli-with-sambhar-and-green-red-chutney-popular-south-indian-breakfast.jpg?s=612x612&w=0&k=20&c=pLE9fkx7E502vOhRZ0bwc6R9z2QgJzhRwd0F-6-nGT0=",
+            "priceforHalf": "70",
+            "priceforFull": "130",
+            "starsRatings": "4.8"
+          },
+          {
+            "id": 20,
+            "name": "Soya Bhurji",
+            "category": "Post-Workout",
+            "ingredients": [
+              "Soya Granules",
+              "Onions",
+              "Tomatoes",
+              "Spices"
+            ],
+            "250g": {
+              "protein": "25g",
+              "calories": "180",
+              "energy": "753kJ",
+              "carbs": "15g",
+              "fats": "3.5g"
+            },
+            "500g": {
+              "protein": "50g",
+              "calories": "360",
+              "energy": "1506kJ",
+              "carbs": "30g",
+              "fats": "7g"
+            },
+            "imageURL": "https://media.istockphoto.com/id/1404479139/photo/indian-vegetable-spicy-paneer-bhurji.jpg?s=612x612&w=0&k=20&c=6NOCI-SJHIhyvOwZTA40nx2ak5dl_LrvMhr6H9ieHNs=",
+            "priceforHalf": "60",
+            "priceforFull": "120",
+            "starsRatings": "5.0"
+          },
+          
+        ]
     }
